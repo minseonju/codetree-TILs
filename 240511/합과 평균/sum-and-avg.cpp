@@ -2,15 +2,18 @@
 using namespace std;
 
 int main() {
-    float a;
-    float b;
+    int a;
+    int b;
 
     cin >>a>>b;
 
     float sum=a+b;
-    float average= sum/2.0;
+    float average= sum/2;
 
-    cout <<sum<<" "<< (float)average;
+    cout<<fixed;
+    cout.precision(1);
+ 
+    cout <<(int)sum<<" "<< (float)average;
 
     return 0;
 }
