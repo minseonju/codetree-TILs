@@ -10,7 +10,7 @@ int main() {
     float sum=a+b;
     float average= sum/2;
 
-    cout <<sum<<" "<< average;
+    cout <<sum<<" "<< (float)average;
 
     return 0;
 }
