@@ -8,7 +8,7 @@ int main() {
     cin >>a>>b;
 
     float sum=a+b;
-    float average= sum/2;
+    float average= sum/2.0;
 
     cout <<sum<<" "<< (float)average;
 
