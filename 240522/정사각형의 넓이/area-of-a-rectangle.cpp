@@ -8,7 +8,7 @@ int main() {
 
     int s = n*n;
 
-    if(s <5){
+    if(n<5){
         cout << s << endl;
         cout << "tiny";
     }
